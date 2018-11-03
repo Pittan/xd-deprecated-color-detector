@@ -1,0 +1,16 @@
+{
+    "id": "28301b40",
+    "name": "Deprecated Color Detector",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+    "version": "0.1.0",
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "非推奨の色が使われていないか探す",
+            "commandId": "searchDesprecatedColors"
+        }
+    ]
+}
