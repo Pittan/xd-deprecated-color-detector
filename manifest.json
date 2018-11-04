@@ -10,7 +10,7 @@
         {
             "type": "menu",
             "label": "非推奨の色が使われていないか探す",
-            "commandId": "searchDesprecatedColors"
+            "commandId": "searchDeprecatedColors"
         }
     ]
 }
