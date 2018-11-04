@@ -1,0 +1,23 @@
+{
+  "name": "deprecated-color-detector",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build-prod": "mkdir -p dist && cp -r manifest.json main.js lib dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pittan/xd-deprecated-color-detector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pittan/xd-deprecated-color-detector/issues"
+  },
+  "homepage": "https://github.com/Pittan/xd-deprecated-color-detector#readme"
+}
