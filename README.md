@@ -8,6 +8,11 @@ Adobe XD上で作られたアートボード内に非推奨の色が
 
 ※ リリース初期は#616161のみです。追って機能追加で対応します。
 
+![one](https://user-images.githubusercontent.com/6269639/47960992-24879d00-e046-11e8-827c-6368f25dc8e2.png)
+![two](https://user-images.githubusercontent.com/6269639/47960995-25203380-e046-11e8-82af-801d18ec2f44.png)
+![three](https://user-images.githubusercontent.com/6269639/47960994-25203380-e046-11e8-84b6-277fa07aa7b1.png)
+![four](https://user-images.githubusercontent.com/6269639/47960993-24879d00-e046-11e8-9d3f-0d43711bbfa9.png)
+
 ## インストール
 1. [Releases](https://github.com/Pittan/xd-deprecated-color-detector/releases) より最新のバージョンの `.xdx` ファイルをダウンロードしてください。
 2. ダウンロードしたファイルをダブルクリックすると、XDへ追加するか確認されます。
