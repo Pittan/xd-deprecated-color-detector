@@ -28,7 +28,17 @@ async function searchDeprecatedColors (selection, documentRoot) {
     const result = digChildNode(selection.items[i])
     if (result.length > 0) {
       const messages = [];
-      result.forEach(r => messages.push(createErrorMessage(r)))
+      let count = 0
+      let isResultMoreThanThree = false
+      result.forEach(r => {
+        count ++
+        if (count >= 3) {
+          isResultMoreThanThree = true
+          return
+        }
+        messages.push(createErrorMessage(r))
+      })
+      if (isResultMoreThanThree) { messages.push(`その他${count - 3}件の問題は省略されました。\n最初に表示されている問題を解決してください。`) }
       await alert(`アートボード「${selection.items[i].name}」に以下の問題が見つかりました。`, messages)
     } else {
       await alert(`アートボード「${selection.items[i].name}」問題は見つかりませんでした。`)
